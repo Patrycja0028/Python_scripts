@@ -3,6 +3,6 @@
 n = 1940402000481000410
 s = str(n)
 zeros = s.count("0")
-zeros
+zeros # 9
 
 #print(zeros)
