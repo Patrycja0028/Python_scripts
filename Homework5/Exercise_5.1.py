@@ -1,3 +1,6 @@
+# For a given directory (top) find the number of bytes taken by PDF files in the directory tree (".pdf" extensions).
+#The code should be in the function find_pdf_size(top). In order to test the current directory we run find_pdf_size("."). 
+
 import os
 
 def find_pdf_size(top):
@@ -14,5 +17,7 @@ def find_pdf_size(top):
     
     return total_size
 
+# test
+top = "D:\\Desktop"
 
-print(find_pdf_size("."))
+print(find_pdf_size(top))
