@@ -1,3 +1,6 @@
+# Create the function print_working_days(date1, date2), where date1 and date2 are strings of the form 'YYYY-MM-DD'.
+# The function prints dates of working days (from Monday to Friday) in the given range, date2 is excluded.
+
 from datetime import datetime, timedelta
 
 def print_working_days(date1, date2):
