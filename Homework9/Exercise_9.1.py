@@ -1,3 +1,5 @@
+#Plot functions sin(x), cos(x), and exp(-x) in a range [0,10] in the same figure. Colors are red, green, and blue, respectively. Lines are solid, dashed, and dotted, respectively. Add a legend. 
+
 import numpy as np
 import matplotlib.pyplot as plt
 
